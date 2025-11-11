@@ -25,7 +25,7 @@ public class Principal {
 
         Estacion e1 = new Estacion("Starbucks planta baja", 001, false);
         Estacion e2 = new Estacion("Molinete Lima 3", 003, false);
-        Estacion e3 = new Estacion("Aula 613", 712, true);
+        Estacion e3 = new Estacion("Aula 613", 613, true);
         Estacion e4 = new Estacion("Aula 918", 918, true);
         Estacion e5 = new Estacion("Sala de profesores", 002, false);
 
@@ -67,11 +67,18 @@ public class Principal {
         desplazamientos.add(d2);
         desplazamientos.add(d3);
 
-        EncontrarRecorridoUadaImp recorridoUada = new EncontrarRecorridoUadaImp();
+        BackTraking bt = new BackTraking();
+        //System.out.println(bt.actualizarBateriaActual(e4,130,20)+" %");
+        //System.out.println(bt.calcularCostosMovimiento(100,Movimiento.SALTAR));
+        //System.out.println(bt.calcularCostosMovimiento(100,Movimiento.PATAS_ARRIBA));
+        //System.out.println(bt.calcularCostosMovimiento(100,Movimiento.CAMINAR));
+        //System.out.println(bt.esEstacionObligatoria(e5,lugaresObligatorios));
+
+        /*EncontrarRecorridoUadaImp recorridoUada = new EncontrarRecorridoUadaImp();
 
         ArrayList<Decision> secuenciaDecisiones = recorridoUada.encontrarSecuenciaRecorridoUada(bateriaInicial, e, lugaresDisponibles, lugaresObligatorios, desplazamientos);
 
-        imprimirSecuenciaDecisiones(secuenciaDecisiones);
+        imprimirSecuenciaDecisiones(secuenciaDecisiones);*/
 
     }
 

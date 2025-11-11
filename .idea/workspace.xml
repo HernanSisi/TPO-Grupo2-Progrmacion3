@@ -1,20 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="" />
+    <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/EncontrarRecorridoUadaImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/EncontrarRecorridoUadaImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="33z9ipC5Ic3hEv3Q93sOUrzNZNx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="MisionUada" />
@@ -79,6 +115,13 @@
       <workItem from="1760311058606" duration="2000" />
       <workItem from="1760371326477" duration="54000" />
       <workItem from="1760394683599" duration="3102000" />
+      <workItem from="1761948483894" duration="26000" />
+      <workItem from="1762014317299" duration="1441000" />
+      <workItem from="1762214027710" duration="4279000" />
+      <workItem from="1762275325898" duration="16413000" />
+      <workItem from="1762721725910" duration="1894000" />
+      <workItem from="1762745371321" duration="12638000" />
+      <workItem from="1762817347749" duration="20000" />
     </task>
     <servers />
   </component>

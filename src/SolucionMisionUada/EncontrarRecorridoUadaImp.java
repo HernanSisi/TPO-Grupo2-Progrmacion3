@@ -12,7 +12,19 @@ public class EncontrarRecorridoUadaImp implements EncontrarRecorridoUada {
     @Override
     public ArrayList<Decision> encontrarSecuenciaRecorridoUada(int bateriaInicial, Estacion origen, ArrayList<Estacion> lugaresDisponibles, ArrayList<Estacion> lugaresObligatorios, ArrayList<Desplazamiento> desplazamientos) {
         ArrayList<Decision> secuenciaDecisiones = new ArrayList<Decision>();
-
+        ArrayList<Estacion> estacionesVisitadas = new ArrayList<Estacion>();
+        ArrayList<Decision> mejorDecision = new ArrayList<Decision>();
+        /*return backTraking(origen,
+                origen,
+                secuenciaDecisiones,
+                bateriaInicial,
+                0,
+                desplazamientos,
+                mejorDecision,
+                estacionesVisitadas,
+                lugaresObligatorios,
+                lugaresDisponibles
+        );*/
         return secuenciaDecisiones;
     }
 }
