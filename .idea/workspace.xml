@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libreria2C2025Martes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TPO2C2025MartesSolucion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TPO2C2025MartesSolucion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/BackTraking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/BackTraking.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/EncontrarRecorridoUadaImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/EncontrarRecorridoUadaImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" afterDir="false" />
     </list>
@@ -27,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -35,22 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Principal.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="MisionUada" />
@@ -122,10 +133,49 @@
       <workItem from="1762721725910" duration="1894000" />
       <workItem from="1762745371321" duration="12638000" />
       <workItem from="1762817347749" duration="20000" />
+      <workItem from="1762882736510" duration="1451000" />
+      <workItem from="1763057985890" duration="7476000" />
+      <workItem from="1763119494770" duration="7830000" />
+      <workItem from="1763127717735" duration="5715000" />
+      <workItem from="1763303292880" duration="2631000" />
+      <workItem from="1763306917487" duration="12881000" />
+      <workItem from="1763327192925" duration="14047000" />
+      <workItem from="1763407630554" duration="12724000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="MisionUada.Desplazamiento" memberName="destino" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

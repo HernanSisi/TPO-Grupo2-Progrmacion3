@@ -14,7 +14,9 @@ public class EncontrarRecorridoUadaImp implements EncontrarRecorridoUada {
         ArrayList<Decision> secuenciaDecisiones = new ArrayList<Decision>();
         ArrayList<Estacion> estacionesVisitadas = new ArrayList<Estacion>();
         ArrayList<Decision> mejorDecision = new ArrayList<Decision>();
-        /*return backTraking(origen,
+        BackTraking solucion = new BackTraking();
+        return solucion.backTraking(
+                origen,
                 origen,
                 secuenciaDecisiones,
                 bateriaInicial,
@@ -23,8 +25,7 @@ public class EncontrarRecorridoUadaImp implements EncontrarRecorridoUada {
                 mejorDecision,
                 estacionesVisitadas,
                 lugaresObligatorios,
-                lugaresDisponibles
-        );*/
-        return secuenciaDecisiones;
+                0
+        );
     }
 }
