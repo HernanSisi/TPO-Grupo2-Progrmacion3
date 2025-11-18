@@ -17,8 +17,7 @@ public class BackTraking {
             ArrayList<Desplazamiento> desplazamientos,//no se copia, queda igual
             ArrayList<Decision> mejorDecision,
             ArrayList<Estacion> estacionesVisitadas,
-            ArrayList<Estacion> lugaresObligatorios,
-            int interaccion
+            ArrayList<Estacion> lugaresObligatorios
     ) {
         //evalua si se regreso a la estacion inicial, si lo es devuleve el recorrido actual. evalua si esta vacio para evitar errores en la primera llamada
         if (!recorridoActual.isEmpty() && estacionInicial.getIdentificadorNumerico() == estacionActual.getIdentificadorNumerico()) {
@@ -94,8 +93,7 @@ public class BackTraking {
                                 desplazamientos,
                                 mejorDecision,
                                 estacionesVisitadas,
-                                lugaresObligatorios,
-                                interaccion + 1
+                                lugaresObligatorios
                         );
 
                         if (esSolucion(decisionObtenida, lugaresObligatorios)) {

@@ -24,8 +24,7 @@ public class EncontrarRecorridoUadaImp implements EncontrarRecorridoUada {
                 desplazamientos,
                 mejorDecision,
                 estacionesVisitadas,
-                lugaresObligatorios,
-                0
+                lugaresObligatorios
         );
     }
 }
