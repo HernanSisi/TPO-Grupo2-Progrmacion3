@@ -78,10 +78,10 @@ public class Principal {
         Desplazamiento d5 = new Desplazamiento(e6,e2,CP,960);
         Desplazamiento d6 = new Desplazamiento(e2,e3,SS,550);
         Desplazamiento d7 = new Desplazamiento(e2,e6,SP,100);
-        Desplazamiento d8 = new Desplazamiento(e3,e,SC,180);
+//        Desplazamiento d8 = new Desplazamiento(e3,e,SC,180);
         Desplazamiento d9 = new Desplazamiento(e3,e1,SC,550);
         Desplazamiento d10 = new Desplazamiento(e3,e4,CS,500);
-        Desplazamiento d11 = new Desplazamiento(e1,e,CS,900);
+//        Desplazamiento d11 = new Desplazamiento(e1,e,CS,900);
         Desplazamiento d12 = new Desplazamiento(e1,e4,CP,420);
         Desplazamiento d13 = new Desplazamiento(e4,e2,CS,4000);
         Desplazamiento d14 = new Desplazamiento(e4,e3,SC,540);
@@ -96,10 +96,10 @@ public class Principal {
         desplazamientos.add(d5);
         desplazamientos.add(d6);
         desplazamientos.add(d7);
-        desplazamientos.add(d8);
+//        desplazamientos.add(d8);
         desplazamientos.add(d9);
         desplazamientos.add(d10);
-        desplazamientos.add(d11);
+//        desplazamientos.add(d11);
         desplazamientos.add(d12);
         desplazamientos.add(d13);
         desplazamientos.add(d14);
@@ -109,13 +109,12 @@ public class Principal {
         ArrayList<Decision> secuenciaDecisiones = recorridoUada.encontrarSecuenciaRecorridoUada(bateriaInicial, e, lugaresDisponibles, lugaresObligatorios, desplazamientos);
         imprimirSecuenciaDecisiones(secuenciaDecisiones);
     }
-
-    public static void imprimirDesplzamientos(ArrayList<Decision> desplazamientos){
-        for(Decision d: desplazamientos){
-            System.out.println(d.getDestino().getNombre());
-        }
-    }
     public static void imprimirSecuenciaDecisiones(ArrayList<Decision> secuenciaDecisiones) {
+        if(secuenciaDecisiones.isEmpty()){
+            System.err.println("El el mapa actual no tiene una solucion.");
+            return;
+        }
+
         StringBuilder sb = new StringBuilder();
 
         for (int i=0; i < secuenciaDecisiones.size();i++) {
