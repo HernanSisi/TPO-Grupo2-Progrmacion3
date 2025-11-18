@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/BackTraking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/BackTraking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +135,7 @@
       <workItem from="1763306917487" duration="12881000" />
       <workItem from="1763327192925" duration="14047000" />
       <workItem from="1763407630554" duration="15522000" />
-      <workItem from="1763500063829" duration="3730000" />
+      <workItem from="1763500063829" duration="5380000" />
     </task>
     <servers />
   </component>

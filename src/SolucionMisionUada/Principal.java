@@ -12,9 +12,9 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
 
-        // Ejemplo de datos de entrada
-
+        
         int bateriaInicial = 100;
 
         ArrayList<Estacion> lugaresDisponibles = new ArrayList<Estacion>();
@@ -78,12 +78,12 @@ public class Principal {
         Desplazamiento d5 = new Desplazamiento(e6,e2,CP,960);
         Desplazamiento d6 = new Desplazamiento(e2,e3,SS,550);
         Desplazamiento d7 = new Desplazamiento(e2,e6,SP,100);
-//        Desplazamiento d8 = new Desplazamiento(e3,e,SC,180);
+        Desplazamiento d8 = new Desplazamiento(e3,e,SC,180);
         Desplazamiento d9 = new Desplazamiento(e3,e1,SC,550);
         Desplazamiento d10 = new Desplazamiento(e3,e4,CS,500);
-//        Desplazamiento d11 = new Desplazamiento(e1,e,CS,900);
+        Desplazamiento d11 = new Desplazamiento(e1,e,CS,900);
         Desplazamiento d12 = new Desplazamiento(e1,e4,CP,420);
-        Desplazamiento d13 = new Desplazamiento(e4,e2,CS,4000);
+        Desplazamiento d13 = new Desplazamiento(e4,e2,CS,400);
         Desplazamiento d14 = new Desplazamiento(e4,e3,SC,540);
         Desplazamiento d15 = new Desplazamiento(e4,e1,CS,140);
 
@@ -96,10 +96,10 @@ public class Principal {
         desplazamientos.add(d5);
         desplazamientos.add(d6);
         desplazamientos.add(d7);
-//        desplazamientos.add(d8);
+        desplazamientos.add(d8);
         desplazamientos.add(d9);
         desplazamientos.add(d10);
-//        desplazamientos.add(d11);
+        desplazamientos.add(d11);
         desplazamientos.add(d12);
         desplazamientos.add(d13);
         desplazamientos.add(d14);
@@ -107,7 +107,14 @@ public class Principal {
 
         EncontrarRecorridoUadaImp recorridoUada = new EncontrarRecorridoUadaImp();
         ArrayList<Decision> secuenciaDecisiones = recorridoUada.encontrarSecuenciaRecorridoUada(bateriaInicial, e, lugaresDisponibles, lugaresObligatorios, desplazamientos);
+
         imprimirSecuenciaDecisiones(secuenciaDecisiones);
+
+        long endTime = System.nanoTime();
+        long durationNano = (endTime - startTime);
+        double durationMilli = durationNano / 1_000_000.0;
+        System.out.println("Tiempo de ejecución: " + durationNano + " nanosegundos");
+        System.out.println("Tiempo de ejecución: " + durationMilli + " milisegundos");
     }
     public static void imprimirSecuenciaDecisiones(ArrayList<Decision> secuenciaDecisiones) {
         if(secuenciaDecisiones.isEmpty()){
