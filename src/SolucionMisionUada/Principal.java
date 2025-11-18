@@ -108,8 +108,6 @@ public class Principal {
         EncontrarRecorridoUadaImp recorridoUada = new EncontrarRecorridoUadaImp();
         ArrayList<Decision> secuenciaDecisiones = recorridoUada.encontrarSecuenciaRecorridoUada(bateriaInicial, e, lugaresDisponibles, lugaresObligatorios, desplazamientos);
         imprimirSecuenciaDecisiones(secuenciaDecisiones);
-        BackTraking temp = new BackTraking();
-        temp.imprimirRecorido(secuenciaDecisiones);
     }
 
     public static void imprimirDesplzamientos(ArrayList<Decision> desplazamientos){

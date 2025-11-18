@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libreria2C2025Martes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TPO2C2025MartesSolucion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TPO2C2025MartesSolucion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/BackTraking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/BackTraking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/EncontrarRecorridoUadaImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/EncontrarRecorridoUadaImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/EncontrarRecorridoUadaImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +131,7 @@
       <workItem from="1763303292880" duration="2631000" />
       <workItem from="1763306917487" duration="12881000" />
       <workItem from="1763327192925" duration="14047000" />
-      <workItem from="1763407630554" duration="12724000" />
+      <workItem from="1763407630554" duration="13339000" />
     </task>
     <servers />
   </component>
@@ -159,15 +150,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SolucionMisionUada/BackTraking.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="MisionUada.Desplazamiento" memberName="destino" />
