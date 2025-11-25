@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPO2C2025MartesSolucion/SolucionMisionUada/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SolucionMisionUada/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="f8e981bc-63fa-417b-9a39-4ce9b0866da9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +35,13 @@
   &quot;keyToString&quot;: {
     &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/herna/OneDrive/Documentos/2025/2do cuatri/programacion 3/TPO/TPO-Grupo2-Progrmacion3&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -135,7 +132,10 @@
       <workItem from="1763306917487" duration="12881000" />
       <workItem from="1763327192925" duration="14047000" />
       <workItem from="1763407630554" duration="15522000" />
-      <workItem from="1763500063829" duration="5380000" />
+      <workItem from="1763500063829" duration="12657000" />
+      <workItem from="1763513838404" duration="2484000" />
+      <workItem from="1763930643282" duration="313000" />
+      <workItem from="1764093787869" duration="5409000" />
     </task>
     <servers />
   </component>

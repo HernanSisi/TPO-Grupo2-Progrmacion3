@@ -19,33 +19,20 @@ public class BackTraking {
             ArrayList<Estacion> estacionesVisitadas,
             ArrayList<Estacion> lugaresObligatorios
     ) {
+        ArrayList<Desplazamiento> caminosHabilitados = new ArrayList<>();
         //evalua si se regreso a la estacion inicial, si lo es devuleve el recorrido actual. evalua si esta vacio para evitar errores en la primera llamada
         if (!recorridoActual.isEmpty() && estacionInicial.getIdentificadorNumerico() == estacionActual.getIdentificadorNumerico()) {
-            boolean esSolucionRecorridoActual = esSolucion(recorridoActual, lugaresObligatorios);
-            if (!mejorDecision.isEmpty()) {
-                if (!esSolucionRecorridoActual || (esSolucionRecorridoActual &&
-                        recorridoActual.get(recorridoActual.size() - 1).getTiempoAcumulado() >
-                                mejorDecision.get(mejorDecision.size() - 1).getTiempoAcumulado())) {
-                    return mejorDecision;
-                }
-            }
-            return recorridoActual;
-        }
-
+            mejorDecision = recorridoActual;
+        } else {
         //busco los caminos habitados para esta estacion
-        ArrayList<Desplazamiento> caminosHabilitados = filtrarPosiblesCaminos(
+        caminosHabilitados = filtrarPosiblesCaminos(
                 buscarCaminosDesdeEstacion(estacionActual, desplazamientos),
                 estacionesVisitadas,
                 lugaresObligatorios,
                 estacionInicial,
                 estacionActual);
-        if (caminosHabilitados.isEmpty()) {
-            if (!mejorDecision.isEmpty()) {
-                return mejorDecision;
-            } else {
-                return recorridoActual;
-            }
         }
+
 
         //se recorre cada posible camino
         for (Desplazamiento camino : caminosHabilitados) {

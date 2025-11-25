@@ -1,42 +1,63 @@
 Decision numero 1
 Origen: Aula 633
-Destino: Aula 613
-Movimiento empleado: SALTAR
-Bateria Remanente: 98.333336
-Tiempo Acumulado: 50.0 segundos 
+Destino: Starbucks planta baja
+Movimiento empleado: CAMINAR
+Bateria Remanente: 85.0
+Tiempo Acumulado: 900.0 segundos 
 
 Decision numero 2
-Origen: Aula 613
-Destino: Aula 918
+Origen: Starbucks planta baja
+Destino: Aula 126
 Movimiento empleado: CAMINAR
-Bateria Remanente: 96.933334
-Tiempo Acumulado: 350.0 segundos 
+Bateria Remanente: 79.8
+Tiempo Acumulado: 1320.0 segundos 
 
 Decision numero 3
+Origen: Aula 126
+Destino: oficina de alumnos
+Movimiento empleado: CAMINAR
+Bateria Remanente: 69.25
+Tiempo Acumulado: 1953.0 segundos 
+
+Decision numero 4
+Origen: oficina de alumnos
+Destino: Aula 759
+Movimiento empleado: SALTAR
+Bateria Remanente: 61.350002
+Tiempo Acumulado: 2118.0 segundos 
+
+Decision numero 5
+Origen: Aula 759
+Destino: Aula 522
+Movimiento empleado: SALTAR
+Bateria Remanente: 34.36667
+Tiempo Acumulado: 2510.5 segundos 
+
+Decision numero 6
+Origen: Aula 522
+Destino: Sala de Profesores
+Movimiento empleado: SALTAR
+Bateria Remanente: 6.793333
+Tiempo Acumulado: 2886.5 segundos 
+
+Decision numero 7
+Origen: Sala de Profesores
+Destino: Aula 918
+Movimiento empleado: PATAS_ARRIBA
+Bateria Remanente: 9.643333
+Tiempo Acumulado: 3086.5 segundos 
+
+Decision numero 8
 Origen: Aula 918
 Destino: Aula 365
 Movimiento empleado: CAMINAR
-Bateria Remanente: 91.4
-Tiempo Acumulado: 850.0 segundos 
+Bateria Remanente: 4.1100006
+Tiempo Acumulado: 3586.5 segundos 
 
-Decision numero 4
+Decision numero 9
 Origen: Aula 365
-Destino: Aula 126
-Movimiento empleado: SALTAR
-Bateria Remanente: 74.86667
-Tiempo Acumulado: 1100.0 segundos 
-
-Decision numero 5
-Origen: Aula 126
-Destino: Starbucks planta baja
-Movimiento empleado: SALTAR
-Bateria Remanente: 69.73334
-Tiempo Acumulado: 1170.0 segundos 
-
-Decision numero 6
-Origen: Starbucks planta baja
 Destino: Aula 633
-Movimiento empleado: SALTAR
-Bateria Remanente: 39.13334
-Tiempo Acumulado: 1620.0 segundos 
+Movimiento empleado: CAMINAR
+Bateria Remanente: 3.5100007
+Tiempo Acumulado: 3766.5 segundos 
 
